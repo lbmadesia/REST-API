@@ -1,0 +1,19 @@
+IF you want to request 
+
+PUT, DELETE or PATCH
+
+so you have code of ajax like below format
+
+    var senddata = { "name":"lb madesia","email":"a@gmail.com","address":"gorakhpur"};
+   senddata = JSON.stringify(senddata);
+    $.ajax({
+        type: method,
+        url: "index.php",
+        data: senddata,
+
+        success: function (res) {
+
+        },
+        
+    });
+   

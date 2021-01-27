@@ -1,0 +1,16 @@
+IF you want to request 
+
+so you have code of ajax like below format
+
+    var senddata = new FormData(this);
+    $.ajax({
+        type: method,
+        url: "index.php",
+        data: senddata,
+
+        success: function (res) {
+
+        },
+        
+    });
+   
